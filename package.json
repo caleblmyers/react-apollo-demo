@@ -1,0 +1,27 @@
+{
+  "name": "react-apollo-demo",
+  "version": "1.0.0",
+  "description": "Demo of React & Apollo integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleblmyers/react-apollo-demo.git"
+  },
+  "author": "Caleb Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caleblmyers/react-apollo-demo/issues"
+  },
+  "homepage": "https://github.com/caleblmyers/react-apollo-demo#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  }
+}
